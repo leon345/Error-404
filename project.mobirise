@@ -29,7 +29,8 @@
       },
       "additionalSetColors": [
         "#ff0000",
-        "#000000"
+        "#000000",
+        "#a7a7a7"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -59,7 +60,12 @@
       "text": "<strong>Haftungshinweis:</strong>\nTrotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Inhalte externer Links.\nFür den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Lesen Sie unser  <a href='impressum.html'>Impressum</a>.",
       "textButton": "Verstanden"
     },
-    "gdpr": false,
+    "gdpr": {
+      "colorText": "#ff0000",
+      "colorLink": "#ff0000",
+      "underlineLink": true,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
     "uniqCompNum": 5,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
